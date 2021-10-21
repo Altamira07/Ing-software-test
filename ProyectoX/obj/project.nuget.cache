@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c8kg/Y07XnrUxSOQul9s1RS0mBhcVTpTA9g9GVb26BHDmq1hWQm9a9hhoctDQ6oXxSHLKTtJ6mQyiJFi+9Hnnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luisa\\lockdown\\ProyectoX\\ProyectoX.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luisa\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

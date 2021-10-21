@@ -1,0 +1,15 @@
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ProyectoX.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ProyectoX.AssemblyInfoInputs.cache
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ProyectoX.AssemblyInfo.cs
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ProyectoX.csproj.CoreCompileInputs.cache
+C:\Users\luisa\lockdown\ProyectoX\bin\Debug\net5.0\ProyectoX.exe
+C:\Users\luisa\lockdown\ProyectoX\bin\Debug\net5.0\ProyectoX.deps.json
+C:\Users\luisa\lockdown\ProyectoX\bin\Debug\net5.0\ProyectoX.runtimeconfig.json
+C:\Users\luisa\lockdown\ProyectoX\bin\Debug\net5.0\ProyectoX.runtimeconfig.dev.json
+C:\Users\luisa\lockdown\ProyectoX\bin\Debug\net5.0\ProyectoX.dll
+C:\Users\luisa\lockdown\ProyectoX\bin\Debug\net5.0\ref\ProyectoX.dll
+C:\Users\luisa\lockdown\ProyectoX\bin\Debug\net5.0\ProyectoX.pdb
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ProyectoX.dll
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ref\ProyectoX.dll
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ProyectoX.pdb
+C:\Users\luisa\lockdown\ProyectoX\obj\Debug\net5.0\ProyectoX.genruntimeconfig.cache
