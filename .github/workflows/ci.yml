@@ -15,5 +15,4 @@ jobs:
       
       - name: Compilar aplicacion
         run: |
-          dotnet clean
           dotnet build
