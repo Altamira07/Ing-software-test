@@ -13,6 +13,10 @@ jobs:
         with:
           dotnet-version: '6.0.x'
       
+      - name: Probar aplicacion
+        run: |
+          dotnet test
+
       - name: Compilar aplicacion
         run: |
           dotnet build
