@@ -1,25 +1,13 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using McMaster.Extensions.CommandLineUtils;
-
+﻿using McMaster.Extensions.CommandLineUtils;
+using ProyectoX.Commands;
 namespace ProyectoX
 {
-
-
     [Command("lockdown")]
     [VersionOptionFromMember("--version", MemberName = nameof(LockdownVersion))]
+    [Subcommand(typeof(BuildCommand))]
     public class Program
     {
         public string LockdownVersion { get; } = "0.0.0";
-        [Argument(0, Description = "The first operand")]
-        [Required]
-        public int FirstNumber { get; set; }
-        [Argument(1, Description = "Operation to perform")]
-        [Required]
-        public string Operantion { get; set; }
-        [Argument(2, Description = "The second operand")]
-        [Required]
-        public int SecondNumber { get; set; }
 
         public static int Main(string[] args)
         {
@@ -28,25 +16,7 @@ namespace ProyectoX
 
         public int OnExecute(CommandLineApplication app)
         {
-            int result;
-            switch (this.Operantion)
-            {
-                case "+":
-                    result = this.FirstNumber + this.SecondNumber;
-                    break;
-                case "-":
-                    result = this.FirstNumber - this.SecondNumber;
-                    break;
-                case "*":
-                    result = this.FirstNumber * this.SecondNumber;
-                    break;
-                case "/":
-                    result = this.FirstNumber / this.SecondNumber;
-                    break;
-                default:
-                    throw new NotImplementedException($"The operation {this.Operantion} is not implemented");
-            }
-            Console.WriteLine(result);
+            app.ShowHelp();
             return 0;
         }
     }
